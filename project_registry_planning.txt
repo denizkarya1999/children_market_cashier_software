@@ -1,0 +1,18 @@
+Technologies that will be used:
+C#
+Windows Forms
+MySQL
+LINQ to MySQL
+
+Way the algorithm will work:
+1- The user will press any of the products listed
+2- Each product will contain certain values that will be inserted as the user presses each of them to do the SQL database
+3- The user will also be able to create new products on the SQL database.
+4- If possible the user will be able to print a reciept.
+
+Database Page:
+1- Display and write data into SQL database
+2- Sort data from SQL database(mostly with number values)
+3- Search data from SQL Database(mostly strings)
+4- Delete or Show all the items
+5- Insert, Delete, Update and go to the data with buttons.

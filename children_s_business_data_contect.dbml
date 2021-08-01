@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="children`s_business_database" Class="children_s_business_data_contectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\children`s_business_database.mdf;Integrated Security=True" SettingsObjectName="project_market_registry.Properties.Settings" SettingsPropertyName="children_s_business_databaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Table]" Member="Tables">
+    <Type Name="Table">
+      <Column Name="[Order Number]" Member="Order_Number" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Product Name]" Member="Product_Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[Units (Kilogram)]" Member="Units__Kilogram_" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Price ($) ]" Member="Price_____" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Taxes (%)]" Member="Taxes____" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Total Price ($)]" Member="Total_Price____" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
